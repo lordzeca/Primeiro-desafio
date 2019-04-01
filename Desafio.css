@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 5px;
+}
+body {
+	background-color: pink;
+}
+.container {
+	display: inline-flex;
+	width:  100%;
+	height: 20vh;
+	border-style: ridge;
+	border-color: red;
+	background-image: linear-gradient(to right, red,orange, yellow, green, aquamarine, blue);
+}
+nav {
+	display: inline-flex;
+	margin-left: 30%;
+	width: 15px;
+	height: 10vh;
+}
+.containerimg {
+	width:  10%;
+	height: 15vh;
+}
+.containertwt, .containerytb {
+	width: 5%;
+	height: 8vh;
+}
+.containertwt {
+	margin-left: 35%;
+	width: 5%;
+	height: 8vh;
+}
+section {
+	background-color: rgb(219,15,255);
+}
+#Foto {
+	margin-right: 10%
+	width:  10px;
+	height: 15vh;
+	display: inline-flex;
+	box-shadow: 5px 5px 5px black;
+}
+div {
+	margin-left: 5%;
+	padding: 25px;
+	width: 43%;
+	height: 43vh;
+	display: inline-flex;
+	border-style: ridge;
+	border-color: white;
+	border-width: 5px;
+}
+.elemento1 {
+	margin-left: 5%;
+	padding: 25px;
+	width: 43%;
+	height: 45vh;
+	display: inline-flex;
+	border-style: ridge;
+	border-color: white;
+	border-width: 5px;
+}
+p {
+	text-align: justify;
+}
+footer {
+	text-align: center;
+	background-color: rgb(246,19,164);
+
+}
+.elemento2 {
+	margin-left: 5%;
+	padding: 25px;
+	width: 25%;
+	height: 25vh;
+	display: inline-flex;
+	border-style: ridge;
+	border-color: white;
+	border-width: 5px;
+}
